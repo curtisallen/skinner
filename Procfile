@@ -1,2 +1,2 @@
-web: bin/hubot -a slack --name skinner
-web: node index.js
+web.1: bin/hubot -a slack --name skinner
+web.2: node index.js
