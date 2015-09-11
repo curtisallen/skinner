@@ -4,7 +4,11 @@
   "private": true,
   "author": "Curtis Allen <curtis.n.allen@gmail.com>",
   "description": "Yahoo! Fantasy football bot",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
+    "express": "^4.13.3",
     "hubot": "^2.16.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.1",
