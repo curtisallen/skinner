@@ -3,7 +3,7 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-app.get('/auth', function(request, response) {
+app.get('/auth/yahoo', function(request, response) {
   console.log(request)
   response.sendStatus(200)
 });
